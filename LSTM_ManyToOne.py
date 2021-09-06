@@ -17,7 +17,6 @@ import logging
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 # Reading the input Google word2vec model
-#model_vec = word2vec.Word2Vec.load_word2vec_format('/Users/ScrmBison/Desktop/GoogleNews-vectors-negative300.bin', binary=True)
 model_vec = word2vec.Word2Vec.load_word2vec_format('/Users/Rouzbeh/BoxSync/Fall2016/ESCALES/GoogleNews-vectors-negative300.bin', binary=True)
 _VECTOR_SIZE = int(os.environ.get('VECTOR_SIZE', '300'))
 _HIDDEN_DIM = int(os.environ.get('HIDDEN_DIM', '100'))
