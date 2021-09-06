@@ -271,11 +271,3 @@ filename11 = 'numpy_model.sav'
 model = pickle.load(open(filename11, 'rb'))
 print "accuracy = %f" % predict_label(model, X_test,y_test)
 
-# tokenized_sentences
-
-
-
-
-
-
-
