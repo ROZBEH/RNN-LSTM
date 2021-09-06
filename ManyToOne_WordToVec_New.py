@@ -278,8 +278,3 @@ print "accuracy = %f" % predict_label(model, X_train,y_train), "Train Data"
 # tokenized_sentences
 
 print 'nepoch = ',nepoch ,'vocabulary_size = ' ,vocabulary_size ,'hidden_dim = ' ,hidden_dim ,'learning_rate = ',learning_rate
-
-
-
-
-
