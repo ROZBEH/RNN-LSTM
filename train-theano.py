@@ -99,8 +99,3 @@ if _MODEL_FILE != None:
 
 train_with_sgd(model, X_train, y_train, nepoch=_NEPOCH, learning_rate=_LEARNING_RATE)
 print "finished"
-
-
-
-
-
